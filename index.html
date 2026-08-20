@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROT STEC | Maquinaria y Servicio Técnico para PVC y Aluminio</title>
+<meta name="description" content="Maquinaria industrial, repuestos críticos y servicio técnico en terreno para talleres de PVC y Aluminio en Valdivia, Villarrica, Temuco, Concepción y Puerto Montt. Taller central en Los Ángeles, Biobío.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===================== WHATSAPP FLOTANTE ===================== -->
+<a class="wa-float" href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20necesito%20cotizar%20maquinaria%20o%20servicio%20técnico" target="_blank" rel="noopener noreferrer" aria-label="Escríbenos por WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+  <span class="wa-tooltip">¡Escríbenos por WhatsApp!</span>
+</a>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar-custom" id="mainNavbar">
+  <div class="container-fluid px-3 px-lg-5">
+    <div class="nav-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="logo.png" alt="ROT STEC" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      </a>
+
+      <div class="nav-links">
+        <a href="servicios.html" class="nav-link-custom">Servicios</a>
+        <a href="catalogo.html" class="nav-link-custom">Catálogo</a>
+        <a href="#horarios" class="nav-link-custom">Horarios</a>
+        <a href="#por-que-elegirnos" class="nav-link-custom">Por qué elegirnos</a>
+        <a href="#ubicacion" class="nav-link-custom">Ubicación</a>
+        <a href="#faq" class="nav-link-custom">FAQ</a>
+      </div>
+
+      <div class="d-flex align-items-center gap-2">
+        <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20necesito%20cotizar%20maquinaria%20o%20servicio%20técnico" target="_blank" rel="noopener noreferrer" class="btn-custom btn-primary-custom d-none d-lg-inline-flex">
+          <i class="fa-brands fa-whatsapp"></i> Cotizar por WhatsApp
+        </a>
+        <button class="navbar-toggler-custom" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+          <i class="fa-solid fa-bars" id="menuIcon"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="servicios.html" class="nav-link-custom">Servicios</a>
+    <a href="catalogo.html" class="nav-link-custom">Catálogo</a>
+    <a href="#horarios" class="nav-link-custom">Horarios</a>
+    <a href="#por-que-elegirnos" class="nav-link-custom">Por qué elegirnos</a>
+    <a href="#ubicacion" class="nav-link-custom">Ubicación</a>
+    <a href="#faq" class="nav-link-custom">FAQ</a>
+    <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20necesito%20cotizar%20maquinaria%20o%20servicio%20técnico" target="_blank" rel="noopener noreferrer" class="btn-custom btn-primary-custom justify-content-center mt-2">
+      <i class="fa-brands fa-whatsapp"></i> Cotizar por WhatsApp
+    </a>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-content px-3 px-lg-5">
+    <h1 class="hero-title mt-3">Maquinaria y servicio técnico para la industria del <span class="hl">PVC y Aluminio</span></h1>
+    <p class="hero-sub">Optimizamos tu línea de producción con maquinaria de alta precisión, repuestos garantizados y mantenimiento en terreno en la zona centro sur de Chile.</p>
+
+    <div class="hero-badges">
+      <span class="hero-badge"><i class="fa-solid fa-location-crosshairs"></i> Atención en terreno</span>
+      <span class="hero-badge"><i class="fa-solid fa-industry"></i> Taller en Los Ángeles</span>
+      <span class="hero-badge"><i class="fa-solid fa-route"></i> Cobertura desde la VIII a la X región.</span>
+    </div>
+
+    <div class="hero-cta">
+      <a href="catalogo.html" class="btn-custom btn-primary-custom">Explorar catálogo <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="servicios.html" class="btn-custom btn-outline-custom">Solicitar soporte técnico</a>
+    </div>
+
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-num">5</div>
+        <div class="hero-stat-label">Ciudades con cobertura</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">1</div>
+        <div class="hero-stat-label">Taller central, Los Ángeles</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">6</div>
+        <div class="hero-stat-label">Días de atención a la semana</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== SERVICIOS (preview) ===================== -->
+<section id="servicios" class="grid-bg">
+  <div class="container px-3 px-lg-5">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Lo que hacemos</div>
+        <h2 class="section-title">Servicios</h2>
+      </div>
+      <a href="servicios.html" class="section-link">Ver todos los servicios ▸</a>
+    </div>
+
+    <div class="services-grid">
+      <div class="card-custom reveal" data-service="mantenimiento">
+        <div class="card-icon icon-orange"><i class="fa-solid fa-gears"></i></div>
+        <h3>Mantenimiento preventivo y correctivo en terreno</h3>
+        <p>Diagnóstico electroneumático, calibración de cabezales de corte y ajuste de sistemas de soldadura térmica directamente en tu planta.</p>
+        <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20quiero%20consultar%20por%20mantenimiento%20preventivo%20y%20correctivo" target="_blank" rel="noopener noreferrer" class="btn-custom btn-outline-custom btn-sm-custom">Consultar por este servicio</a>
+      </div>
+
+      <div class="card-custom reveal" data-service="instalacion">
+        <div class="card-icon icon-amber"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+        <h3>Instalación y puesta en marcha de líneas de producción</h3>
+        <p>Montaje técnico de tronzadoras, retestadoras, pantógrafos y limpiadoras de esquinas CNC, listos para producir desde el primer día.</p>
+        <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20quiero%20consultar%20por%20instalación%20y%20puesta%20en%20marcha" target="_blank" rel="noopener noreferrer" class="btn-custom btn-outline-custom btn-sm-custom">Consultar por este servicio</a>
+      </div>
+
+      <div class="card-custom reveal" data-service="repuestos">
+        <div class="svc-inner">
+          <div class="card-icon icon-blue"><i class="fa-solid fa-microchip"></i></div>
+          <div style="flex:1; min-width:240px;">
+            <h3>Suministro de repuestos críticos y automatización</h3>
+            <p style="margin-bottom:0;">Discos de corte, resistencias térmicas, válvulas neumáticas, teflones y actualización de controles, con entrega ágil para no detener tu producción.</p>
+          </div>
+          <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20quiero%20consultar%20por%20repuestos%20y%20automatización" target="_blank" rel="noopener noreferrer" class="btn-custom btn-outline-custom btn-sm-custom">Consultar por este servicio</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container px-3 px-lg-5"><div class="section-divider"></div></div>
+
+<!-- ===================== CATALOGO (preview) ===================== -->
+<section id="catalogo" class="grid-bg">
+  <div class="container px-3 px-lg-5">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Maquinaria disponible</div>
+        <h2 class="section-title"><span>Catálogo</span></h2>
+      </div>
+      <a href="catalogo.html" class="section-link">Ver todo el catálogo ▸</a>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="product-card reveal" data-product="mesa-corte-vidrios">
+          <div class="product-img-wrap">
+            <img class="product-img" src="https://www.rotstec.cl/gallery/IMG_7389.jpeg?ts=1752714730" alt="Mesa de corte de vidrios Rotstec con tecnología CNC" loading="lazy">
+            <span class="availability-badge condition"><span class="dot"></span> Tecnología CNC</span>
+          </div>
+          <div class="product-body">
+            <div class="product-tag">Corte de vidrio</div>
+            <h3>Mesa de corte de vidrios Rotstec</h3>
+            <ul class="product-specs">
+              <li><i class="fa-solid fa-caret-right"></i> Cortes rectos y con forma por control numérico</li>
+              <li><i class="fa-solid fa-caret-right"></i> Planchas de hasta 2500 x 3600 mm</li>
+              <li><i class="fa-solid fa-caret-right"></i> Cargador por ventosas y mesa de quiebre</li>
+            </ul>
+            <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20quiero%20cotizar%20la%20Mesa%20de%20corte%20de%20vidrios%20Rotstec" target="_blank" rel="noopener noreferrer" class="btn-custom btn-primary-custom btn-sm-custom mt-auto">Cotizar maquinaria</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product-card reveal" data-product="soldadora-doble-elumatec">
+          <div class="product-img-wrap">
+            <img class="product-img" src="https://www.rotstec.cl/gallery_gen/e50886fe3aa11b34d487fdb6d806aa4d_fit.jpg?ts=1752714730" alt="Máquina soldadora doble Elumatec Ecoline usada reacondicionada" loading="lazy">
+            <span class="availability-badge condition"><span class="dot"></span> Usada reacondicionada</span>
+          </div>
+          <div class="product-body">
+            <div class="product-tag">Soldadura</div>
+            <h3>Soldadora doble Elumatec Ecoline</h3>
+            <ul class="product-specs">
+              <li><i class="fa-solid fa-caret-right"></i> Alimentación 220V</li>
+              <li><i class="fa-solid fa-caret-right"></i> Ancho útil de 3300 mm</li>
+              <li><i class="fa-solid fa-caret-right"></i> Reacondicionada por el taller ROT STEC</li>
+            </ul>
+            <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20quiero%20cotizar%20la%20Soldadora%20doble%20Elumatec%20Ecoline" target="_blank" rel="noopener noreferrer" class="btn-custom btn-primary-custom btn-sm-custom mt-auto">Cotizar maquinaria</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="product-card reveal" data-product="pantografo-kaban">
+          <div class="product-img-wrap">
+            <img class="product-img" src="https://www.rotstec.cl/gallery_gen/ede252c69b9754bd06a431ad2d59da20_fit.jpg?ts=1752714730" alt="Pantógrafo cremonero Kaban usado reacondicionado" loading="lazy">
+            <span class="availability-badge condition"><span class="dot"></span> Usado reacondicionado</span>
+          </div>
+          <div class="product-body">
+            <div class="product-tag">Mecanizado</div>
+            <h3>Pantógrafo Kaban</h3>
+            <ul class="product-specs">
+              <li><i class="fa-solid fa-caret-right"></i> Pantógrafo cremonero</li>
+              <li><i class="fa-solid fa-caret-right"></i> Alimentación 380V</li>
+              <li><i class="fa-solid fa-caret-right"></i> Reacondicionado por el taller ROT STEC</li>
+            </ul>
+            <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20quiero%20cotizar%20el%20Pantógrafo%20Kaban" target="_blank" rel="noopener noreferrer" class="btn-custom btn-primary-custom btn-sm-custom mt-auto">Cotizar maquinaria</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container px-3 px-lg-5"><div class="section-divider"></div></div>
+
+<!-- ===================== HORARIOS ===================== -->
+<section id="horarios" class="grid-bg">
+  <div class="container px-3 px-lg-5">
+    <div class="eyebrow reveal">Disponibilidad</div>
+    <h2 class="section-title reveal"><span>Horarios</span> de atención</h2>
+
+    <div class="row g-4 mt-2 align-items-stretch">
+      <div class="col-lg-7">
+        <div class="hours-panel reveal">
+          <div class="hours-row">
+            <span class="day">Lunes a Viernes</span>
+            <span class="time">08:00 - 18:00 hrs</span>
+          </div>
+          <div class="hours-row">
+            <span class="day">Sábados</span>
+            <span class="time">10:00 - 17:00 hrs</span>
+          </div>
+          <div class="hours-row">
+            <span class="day">Domingos</span>
+            <span class="time">Cerrado. Guardias técnicas previa coordinación</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="hours-panel reveal d-flex flex-column justify-content-center h-100">
+          <p class="mono text-muted-custom mb-2" style="font-size:0.78rem;">Estado del taller ahora</p>
+          <div id="statusPill" class="status-pill">
+            <span class="status-dot" id="statusDot"></span>
+            <span id="statusText">Verificando horario...</span>
+          </div>
+          <p class="text-muted-custom mt-3 mb-0" style="font-size:0.85rem;">Este indicador se calcula según la hora actual en Chile y nuestro horario publicado.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container px-3 px-lg-5"><div class="section-divider"></div></div>
+
+<!-- ===================== POR QUE ELEGIRNOS ===================== -->
+<section id="por-que-elegirnos" class="grid-bg">
+  <div class="container px-3 px-lg-5">
+    <div class="row g-5">
+      <div class="col-lg-5 reveal">
+        <div class="eyebrow">Diferenciadores</div>
+        <h2 class="section-title">¿Por qué elegirnos?</h2>
+        <p class="text-muted-custom mt-3" style="max-width:38ch;">Talleres de PVC y Aluminio que no pueden detenerse eligen un proveedor que responde rápido y conoce el rubro a fondo.</p>
+      </div>
+      <div class="col-lg-7">
+        <div class="pillar reveal">
+          <span class="pillar-num">01</span>
+          <div>
+            <h3>Cobertura rápida en el sur</h3>
+            <p>Soporte presencial en Valdivia, Villarrica, Temuco, Concepción y Puerto Montt.</p>
+          </div>
+        </div>
+        <div class="pillar reveal">
+          <span class="pillar-num">02</span>
+          <div>
+            <h3>Especialistas en PVC y Aluminio</h3>
+            <p>Diagnósticos certeros que evitan detener tu taller por errores de interpretación.</p>
+          </div>
+        </div>
+        <div class="pillar reveal">
+          <span class="pillar-num">03</span>
+          <div>
+            <h3>Disponibilidad de repuestos</h3>
+            <p>Insumos y piezas críticas con entrega ágil hacia toda la zona de cobertura.</p>
+          </div>
+        </div>
+        <div class="pillar reveal">
+          <span class="pillar-num">04</span>
+          <div>
+            <h3>Taller físico en Los Ángeles</h3>
+            <p>Infraestructura propia para reparaciones mayores y respaldo técnico permanente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container px-3 px-lg-5"><div class="section-divider"></div></div>
+
+<!-- ===================== UBICACION ===================== -->
+<section id="ubicacion" class="grid-bg">
+  <div class="container px-3 px-lg-5">
+    <div class="eyebrow reveal">Dónde estamos</div>
+    <h2 class="section-title reveal"><span>Ubicación</span></h2>
+
+    <div class="row g-4 mt-2 align-items-stretch">
+      <div class="col-lg-7">
+        <div class="map-wrap reveal">
+          <iframe
+            src="https://www.google.com/maps?q=Los+%C3%81ngeles,+Biob%C3%ADo,+Chile&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación del taller ROT STEC en Los Ángeles, Biobío">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="map-card reveal h-100 d-flex flex-column">
+          <h3 style="font-size:1.15rem; font-weight:600;">Taller central</h3>
+          <p class="text-muted-custom" style="font-size:0.92rem;">Los Ángeles, Región del Biobío, Chile.</p>
+
+          <p class="mono text-muted-custom mt-3 mb-2" style="font-size:0.75rem;">Ciudades con atención en terreno</p>
+          <div class="coverage-badges">
+            <span class="coverage-badge">Valdivia</span>
+            <span class="coverage-badge">Villarrica</span>
+            <span class="coverage-badge">Temuco</span>
+            <span class="coverage-badge">Concepción</span>
+            <span class="coverage-badge">Puerto Montt</span>
+          </div>
+
+          <div class="mt-auto d-flex flex-column gap-2">
+            <a href="https://www.google.com/maps?q=Los+%C3%81ngeles,+Biob%C3%ADo,+Chile" target="_blank" rel="noopener noreferrer" class="btn-custom btn-primary-custom justify-content-center">
+              <i class="fa-solid fa-diamond-turn-right"></i> Abrir en Google Maps
+            </a>
+            <a href="https://waze.com/ul?q=Los%20Angeles%20Biobio%20Chile" target="_blank" rel="noopener noreferrer" class="btn-custom btn-outline-custom justify-content-center">
+              Abrir en Waze
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container px-3 px-lg-5"><div class="section-divider"></div></div>
+
+<!-- ===================== FAQ ===================== -->
+<section id="faq" class="grid-bg">
+  <div class="container px-3 px-lg-5">
+    <div class="eyebrow reveal">Dudas comunes</div>
+    <h2 class="section-title reveal">Preguntas <span>Frecuentes</span></h2>
+
+    <div class="accordion accordion-custom mt-4 reveal" id="faqAccordion">
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            ¿En qué ciudades realizan visitas técnicas en terreno?
+          </button>
+        </h3>
+        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Atendemos en terreno Valdivia, Villarrica, Temuco, Concepción, Puerto Montt y localidades cercanas dentro de la zona centro sur de Chile, con base de operaciones en nuestro taller central en Los Ángeles.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+            ¿Qué marcas y tipos de maquinaria atienden?
+          </button>
+        </h3>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Trabajamos con tronzadoras, soldadoras, pantógrafos, retestadoras y líneas completas de producción para PVC y Aluminio, independiente de la marca instalada en tu planta.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+            ¿Cuentan con stock de repuestos para entrega rápida?
+          </button>
+        </h3>
+        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Sí, mantenemos stock de repuestos críticos como discos de corte, resistencias térmicas, válvulas neumáticas y teflones, con despacho ágil hacia toda nuestra zona de cobertura.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+            ¿Ofrecen capacitación para el personal tras la instalación de maquinaria?
+          </button>
+        </h3>
+        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Sí, toda instalación incluye una puesta en marcha guiada y capacitación operativa para que tu equipo trabaje con la maquinaria de forma segura y eficiente desde el primer día.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container px-3 px-lg-5">
+    <div class="row g-5">
+      <div class="col-lg-4 col-md-6">
+        <a href="index.html" class="brand-logo">
+          <img src="logo.png" alt="ROT STEC" style="max-height:70px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="brand-fallback" style="display:none;">RS</span>
+        </a>
+        <p class="footer-brand-desc">Maquinaria y soporte técnico para la industria del PVC y Aluminio. Taller central en Los Ángeles, con atención en terreno en la zona centro sur de Chile.</p>
+        <div class="social-row">
+          <a href="https://www.instagram.com/rotstec_spa/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/people/Rotstec-Spa/100063763984737/?mibextid=LQQJ4d&rdid=R2d4kxTWu5g2Md4p&share_url=https%253A%252F%252Fwww.facebook.com%252Fshare%252F19QdhXApWS%252F%253Fmibextid%253DLQQJ4d" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20necesito%20cotizar%20maquinaria%20o%20servicio%20técnico" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-6 footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="index.html#catalogo">Catálogo</a></li>
+          <li><a href="index.html#horarios">Horarios</a></li>
+          <li><a href="index.html#por-que-elegirnos">Por qué elegirnos</a></li>
+          <li><a href="index.html#ubicacion">Ubicación</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6 footer-col">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="servicios.html">Mantenimiento en terreno</a></li>
+          <li><a href="servicios.html">Instalación de líneas</a></li>
+          <li><a href="servicios.html">Repuestos críticos</a></li>
+          <li><a href="catalogo.html">Catálogo completo</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6 footer-col">
+        <h4>Horarios</h4>
+        <ul>
+          <li>Lunes a Viernes: 08:00 - 18:00</li>
+          <li>Sábados: 10:00 - 17:00</li>
+          <li>Domingos: Cerrado</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-6 footer-col">
+        <h4>Contacto directo</h4>
+        <ul>
+          <li><a href="https://wa.me/569XXXXXXXX?text=Hola%20ROT%20STEC,%20necesito%20cotizar%20maquinaria%20o%20servicio%20técnico" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp me-1"></i> WhatsApp</a></li>
+          <li><a href="https://www.instagram.com/rotstec_spa/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram me-1"></i> Instagram</a></li>
+          <li><a href="https://www.facebook.com/people/Rotstec-Spa/100063763984737/?mibextid=LQQJ4d&rdid=R2d4kxTWu5g2Md4p&share_url=https%253A%252F%252Fwww.facebook.com%252Fshare%252F19QdhXApWS%252F%253Fmibextid%253DLQQJ4d" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f me-1"></i> Facebook</a></li>
+          <li><a href="mailto:correo@gmail.com"><i class="fa-solid fa-envelope me-1"></i> correo@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 ROT STEC. Todos los Derechos Reservados.</div>
+      <div><a href="#">Términos, condiciones y políticas de privacidad</a></div>
+      <div>Powered By <a href="https://www.humanwebdesign.cl" target="_blank" rel="noopener noreferrer">Human Web Design</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
